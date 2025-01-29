@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.post-container {
+    background-color: #fff;
+    width: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 2);
+    display: flex;
+    flex-direction: column;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+}
+
+.profile-logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.profile-info h3 {
+    margin: 0;
+    font-size: 14px;
+}
+
+.profile-info p {
+    margin: 0;
+    font-size: 12px;
+    color: #555;
+}
+
+.menu-icono {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.post-image img {
+    width: 100%;
+    display: block;
+}
+
+.post-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.actions-left,
+.actions-right {
+    display: flex;
+    align-items: center;
+}
+
+.actions-left span,
+.actions-right span {
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.post-likes {
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+.post-caption {
+    padding: 10px;
+    font-size: 17px;
+    color: #000;
+}
